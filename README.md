@@ -40,11 +40,3 @@ https://motion.dev
 
 ## Lucide Icons 
 https://lucide.dev
-
-## Brand Icons 
-https://simpleicons.org/
-https://github.com/icons-pack/react-simple-icons
-
-## Deploy on Netlify
-https://www.netlify.com/ 
-
