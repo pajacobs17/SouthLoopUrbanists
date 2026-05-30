@@ -3,13 +3,13 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "build": "next build",
-    "dev": "next dev --turbopack",
+    "local_build": "next build",
+    "local_run": "next dev --turbopack",
     "start": "next start",
     "lint": "next lint",
-	"cloudflare_build": "npx opennextjs-cloudflare build.",
-    "preview": "opennextjs-cloudflare build && opennextjs-cloudflare preview",
+	"build": "opennextjs-cloudflare build.",
     "deploy": "opennextjs-cloudflare build && opennextjs-cloudflare deploy",
+    "preview": "opennextjs-cloudflare build && opennextjs-cloudflare preview",
     "upload": "opennextjs-cloudflare build && opennextjs-cloudflare upload",
     "cf-typegen": "wrangler types --env-interface CloudflareEnv cloudflare-env.d.ts"
   },
