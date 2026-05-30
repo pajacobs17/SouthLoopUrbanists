@@ -3,11 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "local_build": "next build",
     "local_run": "next dev --turbopack",
     "start": "next start",
     "lint": "next lint",
-	"build": "opennextjs-cloudflare build.",
+	"build": "next build",
     "deploy": "opennextjs-cloudflare build && opennextjs-cloudflare deploy",
     "preview": "opennextjs-cloudflare build && opennextjs-cloudflare preview",
     "upload": "opennextjs-cloudflare build && opennextjs-cloudflare upload",
