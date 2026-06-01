@@ -4,6 +4,9 @@
 *.swp
 *.swo
 
+# secrets
+.env
+
 # dependencies
 /node_modules
 /.pnp
