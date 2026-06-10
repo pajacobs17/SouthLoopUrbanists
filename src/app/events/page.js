@@ -42,12 +42,12 @@ export default function EventsPage() {
     "@graph": [
       {
         "@type": "Organization",
-        "@id": "https://southloopurbanists.com/#organization",
+        "@id": "https://southloopurbanists.org/#organization",
         "name": "South Loop Urbanists",
         "description": "A neighborhood group focused on building a more liveable South Loop through advocacy for better housing, transit, and cycling infrastructure",
-        "url": "https://southloopurbanists.com",
+        "url": "https://southloopurbanists.org",
         "sameAs": [],
-        "email": "info@southloopurbanists.com",
+        "email": "info@southloopurbanists.org",
         "areaServed": {
           "@type": "Place",
           "name": "South Loop, Chicago, Illinois"
@@ -56,11 +56,11 @@ export default function EventsPage() {
       },
       ...events.map(event => ({
         "@type": "Event",
-        "@id": `https://southloopurbanists.com/events#${event.id}`,
+        "@id": `https://southloopurbanists.org/events#${event.id}`,
         "name": event.name,
         "description": event.description,
         "organizer": {
-          "@id": "https://southloopurbanists.com/#organization"
+          "@id": "https://southloopurbanists.org/#organization"
         },
         "startDate": event.event_date,
         "location": {

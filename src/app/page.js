@@ -37,7 +37,7 @@ export default function Home() {
 
   const getApiBaseUrl = () => {
     return process.env.NODE_ENV === 'production' 
-      ? 'https://api.southloopurbanists.com'
+      ? 'https://api.southloopurbanists.org'
       : 'http://localhost:8000';
   };
 
@@ -245,7 +245,7 @@ export default function Home() {
             </div>
           </div>
           <div className="text-sm md:text-right">
-            <p>Say hi: info@southloopurbanists.com</p>
+            <p>Say hi: info@southloopurbanists.org</p>
             <p className="opacity-80">© {new Date().getFullYear()} South Loop Urbanists, Chicago, IL</p>
           </div>
         </div>
